@@ -4,151 +4,103 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
+  color: #333;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #333;
-  color: white;
-  padding: 15px 0;
+  background: #004080;
+  color: #fff;
+  padding: 1rem 0;
 }
-
 .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.logo a {
+.navbar .logo a {
+  color: #fff;
   font-size: 1.5rem;
-  color: white;
   text-decoration: none;
-  font-weight: bold;
 }
-
-.nav-links {
+.navbar .nav-links {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
+  gap: 1rem;
 }
-
-.nav-links li {
-  margin-left: 20px;
-}
-
-.nav-links a {
-  color: white;
+.navbar .nav-links a {
+  color: #fff;
   text-decoration: none;
-  padding: 8px 15px;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s ease;
 }
-
-.nav-links a:hover {
-  background-color: #555;
+.navbar .nav-links a:hover {
+  background: #0056b3;
   border-radius: 5px;
 }
 
 /* Hero Section */
 .hero {
-  background-color: #0366d6;
-  color: white;
-  padding: 80px 0;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero .btn-primary {
+  background: #004080;
+  color: #fff;
+}
+.hero .btn-secondary {
+  background: #fff;
+  color: #004080;
+  border: 1px solid #004080;
+}
+.hero .btn:hover {
+  opacity: 0.8;
+}
+
+/* Features Section */
+.features {
+  padding: 2rem 1rem;
+  background: #eaeaea;
   text-align: center;
 }
-
-.hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
+.features h2 {
+  margin-bottom: 1.5rem;
 }
-
-.hero p {
-  font-size: 1.25rem;
-}
-
-.hero .btn {
-  background-color: #fff;
-  color: #0366d6;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.hero .btn:hover {
-  background-color: #eee;
-}
-
-/* Profile page custom styles */
-.card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card-title {
-  font-weight: bold;
-}
-
-.card-body h5 {
-  color: #007bff;
-}
-
-/* Internship Listings */
-.internship-listings {
-  padding: 50px 0;
-  background-color: #f4f4f4;
-}
-
-.internship-grid {
+.features .feature-list {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
-
-.internship-card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  flex: 1;
-}
-
-.internship-card h3 {
-  margin-top: 0;
-}
-
-.internship-card p {
-  color: #666;
-}
-
-.internship-card .btn {
-  background-color: #0366d6;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
+.features .feature-item {
+  max-width: 300px;
+  text-align: left;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
   border-radius: 5px;
-}
-
-.internship-card .btn:hover {
-  background-color: #024e9b;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
-  background-color: #333;
-  color: white;
-  padding: 20px 0;
+  background: #004080;
+  color: #fff;
   text-align: center;
-}
-
-footer a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
+  padding: 1rem 0;
 }
