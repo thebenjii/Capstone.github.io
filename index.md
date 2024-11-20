@@ -1,70 +1,56 @@
 ---
 layout: default
-title: INTERNSURF
+title: Internship Job App
 ---
 
-<!-- Link to the CSS file -->
-<link rel="stylesheet" href="/assets/style.css">
-
-<!-- Custom Navbar -->
-<nav class="navbar">
+<!-- Welcome Section -->
+<header class="hero">
   <div class="container">
-    <div class="logo">
-      <a href="/">INTERNSURF</a> <!-- Updated link to go to the home page -->
-    </div>
-    <ul class="nav-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/internships/">Internships</a></li>
-      <li><a href="/companies/">Companies</a></li>
-      <li><a href="/about/">About Us</a></li>
-      <li class="nav-item">
-        <a class="nav-link {% if page.url == '/profile/' %}active{% endif %}" href="{{ '/profile/' | relative_url }}">Profile</a>
-      </li>
-    </ul>
+    <h1>Welcome to INTERNSURF</h1>
+    <p>Your gateway to finding top-notch internships and connecting with the best companies worldwide.</p>
+    <a href="./internships/" class="btn btn-primary">Explore Internships</a>
+    <a href="./apply/" class="btn btn-secondary">Apply Now</a>
   </div>
-</nav>
+</header>
 
-<!-- Hero Section -->
-<section class="hero">
+<!-- Features Section -->
+<section class="features">
   <div class="container">
-    <h1>Find Your Ideal Internship Opportunity</h1>
-    <p>Connect with top companies and kickstart your career today.</p>
-    <a href="#" class="btn">Get Started</a>
-  </div>
-</section>
-
-<!-- Main Content -->
-<section class="internship-listings">
-  <div class="container">
-    <h2>Latest Internship Opportunities</h2>
-    <div class="internship-grid">
-      <div class="internship-card">
-        <h3>Software Engineering Intern</h3>
-        <p>Join a leading tech company and gain hands-on experience with real-world projects.</p>
-        <a href="/apply/?position=software" class="btn">Apply Now</a>
+    <h2>Why Choose INTERNSURF?</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <h3>Find Premium Internships</h3>
+        <p>Browse a curated list of internships from leading companies tailored to your skills and goals.</p>
       </div>
-      <div class="internship-card">
-        <h3>Marketing Intern</h3>
-        <p>Work with a dynamic marketing team and help execute campaigns for top brands.</p>
-        <a href="/apply/?position=marketing" class="btn">Apply Now</a>
+      <div class="feature-item">
+        <h3>Company Connections</h3>
+        <p>Discover and connect with companies that align with your career aspirations.</p>
       </div>
-      <div class="internship-card">
-        <h3>Product Design Intern</h3>
-        <p>Get creative and design cutting-edge products for a fast-paced startup.</p>
-        <a href="/apply/?position=design" class="btn">Apply Now</a>
+      <div class="feature-item">
+        <h3>Easy Application Process</h3>
+        <p>Apply for internships directly through our streamlined application system.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Footer -->
-<footer>
+<!-- Testimonials Section -->
+<section class="testimonials">
   <div class="container">
-    <p>&copy; 2024 INTERNSURF. All rights reserved.</p>
-    <div>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <a href="#">Contact Us</a>
-    </div>
+    <h2>What Our Users Say</h2>
+    <blockquote>
+      "INTERNSURF made finding my dream internship simple and stress-free!" – Sarah K.
+    </blockquote>
+    <blockquote>
+      "The application process was smooth, and the internship listings are top-tier." – James T.
+    </blockquote>
   </div>
-</footer>
+</section>
+
+<!-- Call to Action -->
+<section class="call-to-action">
+  <div class="container">
+    <h2>Ready to Jumpstart Your Career?</h2>
+    <a href="./apply/" class="btn btn-primary">Start Your Journey</a>
+  </div>
+</section>
